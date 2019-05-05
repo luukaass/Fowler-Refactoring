@@ -10,7 +10,7 @@ abstract class Price {
 
 class ChildrensPrice extends Price {
     public int getPriceCode() {
-        return Movie.CHILDRENS;
+        return Movie.CHILDREN;
     }
 
     public double getCharge(int daysRented) {
