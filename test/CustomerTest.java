@@ -18,14 +18,13 @@ class CustomerTest {
 
     @Test
     void statement() {
-        String expected = "Rental Record for joe\n" +
+        String expected = "Rental Record for max\n" +
                 "\tTitle\t\tDays\tAmount\n" +
-                "\tmovie1\t\t10\t30.0\n" +
-                "\tmovie2\t\t5\t4.5\n" +
+                "\tmovie0\t\t10\t30.0\n" +
+                "\tmovie1\t\t5\t4.5\n" +
                 "Amount owed is 34.5\n" +
                 "You earned 3 frequent renter points";
         String result = customer.statement();
         Assertions.assertEquals(expected, result);
-
     }
 }
