@@ -6,6 +6,7 @@ import java.util.*;
  * by running "java -jar JarFile.jar" in the command line.
  * Java console applications can not be previewed in the Compilr IDE, only applets can.
  */
+
 public class Program {
     /**
      * This is the main entry point for the application
