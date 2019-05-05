@@ -5,19 +5,19 @@ class Customer {
     private String name;
     private List<Rental> rentals = new LinkedList<>();
 
-    public Customer(String name) {
+    Customer(String name) {
         this.name = name;
     }
 
-    public void addRental(Rental rental) {
+    void addRental(Rental rental) {
         rentals.add(rental);
     }
 
-    public String getName() {
+    private String getName() {
         return name;
     }
 
-    public String statement() {
+    String statement() {
         String result = "Rental Record for " + this.getName() + "\n";
         result += "\t" + "Title" + "\t" + "\t" + "Days" + "\t" + "Amount" + "\n";
 
