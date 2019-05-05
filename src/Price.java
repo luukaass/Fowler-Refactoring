@@ -8,7 +8,7 @@ abstract class Price {
     }
 }
 
-class ChildrensPrice extends Price {
+class ChildrenPrice extends Price {
     public int getPriceCode() {
         return Movie.CHILDREN;
     }
