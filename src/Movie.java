@@ -5,9 +5,9 @@ public class Movie {
     private String title;
     private Price price;
 
-    public Movie(String newtitle, int newpriceCode) {
-        title = newtitle;
-        this.setPriceCode(newpriceCode);
+    public Movie(String title, int priceCode) {
+        this.title = title;
+        this.setPriceCode(priceCode);
     }
 
     double getCharge(int daysRented) {
